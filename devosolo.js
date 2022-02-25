@@ -52,7 +52,7 @@ const devosolo50 = new Discord.Client();
 
 ////////////////////////////////////////////// bas id voice dane
 devosolo.on("ready", () => {
-  var join = devosolo.channels.get(""); /// id voice
+  var join = devosolo.channels.get("946083726448799825"); /// id voice
   if (join) join.join();
 });
 ////////////////
